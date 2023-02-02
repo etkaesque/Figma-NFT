@@ -512,12 +512,19 @@ ul li.dark {
     }
 
     .hero-graphic {
+
         background-size: 40%;
         background-image: url(Ellipse-10.svg), url(Ellipse-9.svg);
         background-repeat: no-repeat;
         background-position: 61% 0%, 31% 38%;
         overflow: clip;
+        position: absolute;
+        z-index: -1;
+        right: -20%;
+
     }
+
+  
 
 
     .header-nav ul{
