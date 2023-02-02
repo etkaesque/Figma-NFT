@@ -495,7 +495,7 @@ ul li.dark {
 
         border-radius: 0px;
         width: 100%;
-        margin: -20px;
+        margin-left: -20px;
         overflow: clip;
     }
     
@@ -503,6 +503,7 @@ ul li.dark {
 
         max-width: 190px;
         max-height: 278px;
+        overflow: clip;
        
 
     }
