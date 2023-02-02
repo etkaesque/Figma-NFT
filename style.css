@@ -472,16 +472,30 @@ ul li.dark {
 
 @media (max-width:428px) {
 
+    body {
+
+        margin: 0;
+    }
+
+    header {
+
+        padding-left: 20px;
+     
+    }
+
     .container {
 
         width: 100%;
         overflow: clip;
+        
+
     }
 
     .hero-head {
 
         font-size: 48px;
         line-height: 58px;
+
 
     }
 
@@ -490,6 +504,18 @@ ul li.dark {
         width: 100%;
         grid-template-columns: 80% 1fr;
         grid-template-rows: 80px 1fr 80px;
+        padding-left: 20px;
+    }
+
+    .showcase {
+
+        padding-left: 20px;
+    }
+
+    .press {
+
+    
+
     }
 
 
@@ -503,6 +529,10 @@ ul li.dark {
         overflow: clip;
         padding: 30px;
     }
+
+
+
+  
 
     .upsell h2 {
         font-size: 42px;
@@ -613,6 +643,8 @@ ul li.dark {
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 308px 1fr 100px;
+
+    padding-left: 20px;
 
     }
 
