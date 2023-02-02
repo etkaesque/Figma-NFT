@@ -475,6 +475,7 @@ ul li.dark {
     .container {
 
         width: 100%;
+        overflow: clip;
     }
 
     .hero-head {
@@ -486,9 +487,12 @@ ul li.dark {
 
     .hero {
 
+        width: 100%;
         grid-template-columns: 80% 1fr;
         grid-template-rows: 80px 1fr 80px;
     }
+
+
 
 
     .upsell {
@@ -497,34 +501,44 @@ ul li.dark {
         width: 100%;
         margin-left: -20px;
         overflow: clip;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 30px;
+    }
 
+    .upsell h2 {
+        font-size: 42px;
     }
     
     .hero-graphic svg {
 
         max-width: 190px;
         max-height: 278px;
-        overflow: clip;
        
 
     }
 
     .hero-graphic {
 
+        width: 100%;
         background-size: 40%;
         background-image: url(Ellipse-10.svg), url(Ellipse-9.svg);
         background-repeat: no-repeat;
         background-position: 61% 0%, 31% 38%;
-        overflow: clip;
-        position: absolute;
         z-index: -1;
-        right: -30%;
+    
 
     }
 
-  
+    .hero-graphic-two {
+
+        position: relative;
+        right: 70px;
+        z-index: -1;
+    }
+
+    .sub-head {
+
+        max-width:80%;
+    }
 
 
     .header-nav ul{
@@ -607,9 +621,11 @@ ul li.dark {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
 
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-self: normal;
+        column-gap: 0px;
+    
 
 
     }
