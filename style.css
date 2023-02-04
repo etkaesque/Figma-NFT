@@ -627,7 +627,7 @@ ul li.dark {
         grid-row: 1 / 2;
         grid-column: 1 / 2;
         justify-self: start;
-        width: 80%;
+        width: 100%
     }
 
     .press-item:nth-child(2) {
@@ -635,7 +635,7 @@ ul li.dark {
         grid-row: 1 / 2;
         grid-column: 2 / 3;
         justify-self: start;
-        width: 80%;
+        width: 75%
     }
 
 
@@ -644,7 +644,7 @@ ul li.dark {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
         justify-self: start;
-        width: 80%;
+        width: 75%
     }
 
     .press-item:nth-child(4) {
@@ -652,7 +652,7 @@ ul li.dark {
         grid-row: 2 / 3;
         grid-column: 2 / 3;
         justify-self: start;
-        width: 80%;
+        width: 100%
     }
 
     .showcase-pictures {
